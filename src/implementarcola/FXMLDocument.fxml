@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="435.0" prefWidth="594.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="implementarcola.FXMLDocumentController">
+    <children>
+        <Button layoutX="258.0" layoutY="373.0" onAction="#encolarPersonas" prefHeight="42.0" prefWidth="67.0" text="Encolar" />
+        <Label fx:id="tituloL" layoutX="195.0" minHeight="16" minWidth="69" prefHeight="107.0" prefWidth="300.0" text="Insertar Personas a la Cola">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="nombrePL" layoutX="305.0" layoutY="129.0" text="Nombre Persona" />
+      <TextField fx:id="nombreTxt" layoutX="406.0" layoutY="125.0" />
+      <TextField fx:id="correoTxt" layoutX="406.0" layoutY="160.0" />
+      <Label fx:id="correoPL" layoutX="305.0" layoutY="164.0" text="Correo Persona" />
+      <TextField fx:id="numTxt" layoutX="406.0" layoutY="193.0" />
+      <Label fx:id="numPL" layoutX="258.0" layoutY="197.0" text="Numero Celular Persona" />
+      <TextArea fx:id="showTXT" layoutX="39.0" layoutY="106.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="113.0" layoutY="313.0" mnemonicParsing="false" onAction="#showF" text="Mostar" />
+    </children>
+</AnchorPane>
